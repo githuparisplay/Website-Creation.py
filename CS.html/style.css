@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+CSS comments = anything between /* and */ is a comment.
+
+/*Go to fonts.google.com to find free fonts. Press Get Font, @import, and then copy the embed code to link it in your html file. (The available weights are also shown.) Use the font-family property to apply it to your text.*/
+
+/*HTML: The most generic selector, it applies to all elements on the page. It is used to set global styles for the entire document.*/
+h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 60px;
+    font-weight: 100;
+    color: hsl(59, 61%, 26%);
+}
+
+/*IDs are used to choose specific elements on the page. They are used to apply styles to a single element that has a unique id attribute. The id attribute should be within the document with the word/paragraph that's unique.*/
+/*(To select an element with a specific ID in CSS, you can use the # symbol followed by the ID name. For example, if you have an element with the ID "main-Headline", you can style it in CSS like this. . .)*/
+#main-Headline {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    color: hsl(101, 44%, 34%);
+}
+
+/*text-transform: uppercase
+/*text-transform: lowercase (this one takes precedence over the uppercase one, so it will be lowercase even though the html says uppercase first.)
+
+
+/*Classes are used to choose specific elements on the page. They are used to apply styles to elements that have a particular class attribute.*/
+.classCOLOR1 {
+    color: hsl(103, 61%, 26%);
+}
+.classCOLOR2 {
+    color: hsl(4, 56%, 35%);
+}
+.classCOLOR3 {
+    color: hsl(32, 72%, 46%); 
+}
+.classCOLOR4 {
+    color: hsl(59, 67%, 48%); 
+
+}.classCOLOR5 {
+    color: hsl(113, 66%, 23%); 
+
+}.classCOLOR6 {
+    color: hsl(216, 58%, 35%); 
+
+}
+.classCOLOR7 {
+    color: hsl(278, 61%, 26%); 
+
+}
+.classCOLOR8 {
+    color: hsl(43, 18%, 20%); 
+
+}
+
+
+
+#id {
+
+}
