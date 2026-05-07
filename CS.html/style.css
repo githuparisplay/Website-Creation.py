@@ -172,11 +172,11 @@ body {
     border: 1.5px solid white;
     font: 500 12px Roboto, arial, sans-serif;
     font-weight: 500;
-    width: 12px
+    width: 12px;
     border: 1px solid #F08A85;
     border-radius: 100px;
     margin-bottom: 8px 16px;
-    padding: 2px
+    padding: 2px;
     display: inline-flex;
     color: white;
     background-color: lightgrey;
@@ -186,11 +186,11 @@ body {
     border: 1.5px solid white;
     font: 500 12px Roboto, arial, sans-serif;
     font-weight: 500;
-    width: 12px
+    width: 12px;
     border: 1px solid #F08A85;
     border-radius: 100px;
     margin-bottom: 8px 16px;
-    padding: 2px
+    padding: 2px;
     display: inline-flex;
     color: white;
     background-color: lightgrey;
@@ -200,11 +200,11 @@ body {
     border: 1.5px solid white;
     font: 500 12px Roboto, arial, sans-serif;
     font-weight: 500;
-    width: 12px
+    width: 12px;
     border: 1px solid #F08A85;
     border-radius: 100px;
     margin-bottom: 8px 16px;
-    padding: 2px
+    padding: 2px;
     display: inline-flex;
     color: white;
     background-color: lightgrey;
@@ -214,11 +214,11 @@ body {
     border: 1.5px solid white;
     font: 500 12px Roboto, arial, sans-serif;
     font-weight: 500;
-    width: 12px
+    width: 12px;
     border: 1px solid #F08A85;
     border-radius: 100px;
     margin-bottom: 8px 16px;
-    padding: 2px
+    padding: 2px;
     display: inline-flex;
     color: white;
     background-color: lightgrey;
@@ -228,11 +228,11 @@ body {
     border: 1.5px solid white;
     font: 500 12px Roboto, arial, sans-serif;
     font-weight: 500;
-    width: 12px
+    width: 12px;
     border: 1px solid #F08A85;
     border-radius: 100px;
     margin-bottom: 8px 16px;
-    padding: 2px
+    padding: 2px;
     display: inline-flex;
     color: white;
     background-color: lightgrey;
@@ -242,11 +242,11 @@ body {
     border: 1.5px solid white;
     font: 500 12px Roboto, arial, sans-serif;
     font-weight: 500;
-    width: 12px
+    width: 12px;
     border: 1px solid #F08A85;
     border-radius: 100px;
     margin-bottom: 8px 16px;
-    padding: 2px
+    padding: 2px;
     display: inline-flex;
     color: white;
     background-color: lightgrey;
@@ -256,11 +256,11 @@ body {
     border: 1.5px solid white;
     font: 500 12px Roboto, arial, sans-serif;
     font-weight: 500;
-    width: 12px
+    width: 12px;
     border: 1px solid #F08A85;
     border-radius: 100px;
     margin-bottom: 8px 16px;
-    padding: 2px
+    padding: 2px;
     display: inline-flex;
     color: white;
     background-color: lightgrey;
@@ -273,4 +273,44 @@ body {
     padding: 10px 15px;
     display: inline-block;
     color: white;
+}
+
+
+a {
+    color: white;
+    text-decoration: none; /*Removes the underline from links. */
+}
+
+#main-menu {
+    display: grid;
+    grid-template-rows: repeat(5, 48px);  /*Tell the size of the rows. " :Auto " means that the size of the row will be determined by the content inside it. */
+    justify-items: center; /*Aligns the items in the grid horizontally. */
+    font-size: 12px;
+    height: 100vh; /*Sets the height of the grid to 100% of the "visual height". */
+}
+
+#main-menu > nav > a:hover {
+    color:aqua;
+    font-weight: 900;
+}
+
+#contentcolumn {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 15px;
+}
+
+#headercolumn {
+    border: 5px solid white;
+    border-radius: 10px;
+    display: block;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.scrollable {
+    height: 400px;
+    width: 100%;
+    overflow: scroll;
 }
